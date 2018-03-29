@@ -36,6 +36,19 @@ URL: http://[hostname]/show/
 
 * 登録された発表スライドを閲覧します。
 
+
+## Documentation
+
+Visit the [documentation](docs/)
+
+## Server
+OS windows  
+php 5.3.3以上  
+fuelphp 1.8  
+mysql  
+apache  
+Microsoft PowerPoint  
+
 ## Contribution
 ```
 ライセンス分類：フリーウェア
