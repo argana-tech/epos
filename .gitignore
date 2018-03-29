@@ -1,6 +1,8 @@
 /logs
 /fuel/app/cache
+/fuel/app/logs
 /fuel/app/tmp
-/fuel/app/uploads/announce/*
-/fuel/app/uploads/poster/*
-/fuel/app/uploads/temp/*
+/fuel/app/uploads/announce
+/fuel/app/uploads/poster
+/fuel/app/uploads/temp
+/fuel/app/logs
