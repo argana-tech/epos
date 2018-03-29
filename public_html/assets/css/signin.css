@@ -1,0 +1,16 @@
+body {
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+h2 {
+  max-width: 330px;
+  margin-bottom: 30px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}

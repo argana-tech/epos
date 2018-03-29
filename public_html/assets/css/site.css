@@ -1,0 +1,100 @@
+body {
+    background-color: #fff;
+}
+
+a img:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    margin-bottom: 20px;
+}
+
+textarea.row-tall {
+    height: 200px;
+}
+
+input.isdpicker {
+    display:inline;
+    width: 90%;
+}
+.comment {
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.comment_head {
+    border-bottom: 1px dotted #CCCCCC;
+    clear: both;
+    height: 22px;
+}
+.comment_name {
+    float: left;
+    width: 100%;
+}
+.comment_name .name {
+    color: #555555;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.comment_name .right {
+    float: right;
+}
+.comment_name .date {
+    color: #666666;
+    margin-left: 10px;
+}
+.comment_name .writer {
+    color: #666666;
+    margin-left: 10px;
+}
+.comment_head .edit {
+    float: right;
+}
+.comment_text {
+    clear: both;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+.comment_text textarea {
+    height: 60px;
+    width: 100%;
+}
+table tr td.over {
+    background-color: #FDF8F8;
+    color: #C44141;
+}
+
+input.s_default {
+    width: 120px;
+}
+
+input.s_mini {
+    width: 60px;
+}
+
+.progress_back {
+	position: fixed;
+	background-color: #000000;
+	top:0;
+	left:0;
+	opacity: 0.75;
+	width:100%;
+	height:100%;
+	z-index:9000;
+}
+
+.progress_b {
+	position: fixed;
+	width: 500px;
+	height: 60px;
+	background-color:#eaeaea;
+	padding:10px;
+	z-index:9100;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	top:40%;
+	left:50%;
+	margin-top:-30px;
+	margin-left:-250px;
+}

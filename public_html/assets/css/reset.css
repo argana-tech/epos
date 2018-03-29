@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* -------------------------------------------------------- reset & defaultsetting */
+
+body, div, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ul, ol, li, 
+brockquote, pre, table, caption, th, td, address, 
+form, fieldset, legend, object, hr {
+  margin: 0;
+  padding: 0;
+}
+
+h5, h6, pre, table, code, kbd, samp, acronym, input, textarea {
+  font-size: 100%;
+}
+
+a, ins {
+  text-decoration: none;
+}
+
+address, em, cite, dfn, var {
+  font-style:normal;
+}
+
+input, textarea {
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  /* font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif; */
+  font-weight: normal;
+}
+
+img {
+	border: none;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+a {
+	color:;
+	text-decoration: underline;
+}
+
+a:hover {
+	color:;
+	text-decoration: none;
+}
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    /* font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif; */
+	font-size: 14px;
+	line-height: 150%;
+	color: #000000;
+}
+
+/* @end */
+
+/*
+10px 72%
+11px 79%
+12px 86%
+13px 93%
+14px 100%
+15px 108%
+16px 115%
+17px 122%
+18px 129%
+19px 136%
+20px 143%
+21px 150%
+22px 158%
+23px 165%
+24px 172%
+25px 179%
+26px 186%
+*/
+
+

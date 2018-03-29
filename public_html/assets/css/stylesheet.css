@@ -1,0 +1,713 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* -------------------------------------------------------- style */
+
+body {
+	background: url(../../img/bg.jpg);
+}
+
+#wrapper {
+
+}
+
+/* -------------------------------------------------------- header */
+
+#header {
+	background: url(../../img/headerbg.png) repeat-x bottom;
+	min-height: 57px;
+	margin-bottom: 30px;
+}
+
+#inHeader {
+	max-width: 960px;
+	min-height: 52px;
+	padding: 0 14px 5px;
+	margin: 0 auto;
+}
+
+#inHeader h1 {
+	padding-top: 7px;
+	/padding-top: 7px;
+	float: left;
+}
+
+#inHeader h2 {
+	font-size: 100%;
+	font-weight: normal;
+	color: #444444;
+	padding: 19px 0 0 14px;
+	float: left;
+}
+
+#inHeader div.logOut {
+	float: right;
+	padding-top: 12px;
+	padding-top/**/: 0;
+	margin-top/**/: 12px;
+	background-position: 0 0;
+	width: 118px;
+	height: 30px;
+	display: block;
+	-moz-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+}
+
+#inHeader div.logOut a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#inHeader div.logOut a:hover img {
+	position: absolute;
+    top: -30px;
+}
+
+/* -------------------------------------------------------- index */
+
+#topMain {
+	width: 577px;
+	margin: 0 auto 30px;
+	padding-bottom: 20px;
+	background: url(../../img/smallbg_bottom.png) no-repeat bottom;
+}
+
+#topMain div.contents {
+	background: url(../../img/smallbg.png) repeat-y;
+	padding: 0 5px;
+}
+
+#topMain div.contents p.description {
+	padding: 30px 35px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+#topMain div.contents h4 {
+	padding: 20px 35px 0;
+	margin-bottom: 10px;
+}
+
+#topMain div.contents p.guide {
+	padding: 0 35px 0;
+	margin-bottom: 10px;	
+}
+
+#topMain div.contents div.form {
+	padding: 0 35px 20px;
+}
+
+#topMain div.contents div.form form.form-signin {
+	width: 330px;
+	margin: 0 auto;
+}
+
+div.form .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* -------------------------------------------------------- select */
+
+#selectMain {
+	width: 577px;
+	margin: 0 auto 30px;
+	padding-bottom: 20px;
+	background: url(../../img/smallbg_bottom.png) no-repeat bottom;
+}
+
+#selectMain div.contents {
+	background: url(../../img/smallbg.png) repeat-y;
+	padding: 0 5px;
+}
+
+#selectMain div.contents div.select {
+	padding: 0 35px 20px;
+}
+
+#selectMain div.contents div.select ul.slideSelect {
+	list-style: none;
+	padding: 15px 45px 0;
+}
+
+#selectMain div.contents div.select ul.slideSelect li {
+	float: left;
+	margin-right: 47px;
+}
+
+#selectMain div.contents div.select ul.slideSelect li.last {
+	margin-right: 0;
+}
+
+#selectMain div.contents div.select ul.slideSelect li div.button {
+	margin-bottom: 30px;
+}
+
+#selectMain div.contents div.select ul.slideSelect li div.button img:hover {
+	opacity: 0.5;
+	-ms-filter: "alpha( opacity=50 )";
+	filter: alpha( opacity=50 );	
+}
+
+#selectMain div.contents div.select ul.slideSelect li div.entry {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#selectMain div.contents div.select ul.slideSelect li div.confirm {
+	width: 170px;
+	margin: 0 auto;
+}
+
+#selectMain div.contents div.select ul.slideSelect li div.confirm {
+	background-position: 0 0;
+	width: 170px;
+	height: 30px;
+	display: block;
+	-moz-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+}
+
+#selectMain div.contents div.select ul.slideSelect li div.confirm a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#selectMain div.contents div.select ul.slideSelect li div.confirm a:hover img {
+	position: absolute;
+    top: -30px;
+}
+
+/* --- caution ---*/
+
+.caution {
+	padding: 0.5em 35px 0;
+}
+
+.cautionList {
+	background-color: #f3f3f3;
+    border: 1px solid #eeeeee;
+	padding: 15px;
+
+}
+
+.caution ul {
+	margin-left: 1.0em;
+	list-style: inside;
+}
+
+.caution ul li {
+	text-indent: -1.0em;	
+}
+
+
+/* --- profile ---*/
+
+.profile {
+	padding: 0.5em 35px 20px;
+}
+
+.profile dl {
+    margin: 0;
+    padding: 0;
+	line-height: 1.0;
+}
+
+.profile dl dt {
+    color: #5bb65b;
+    font-weight: bold;
+    margin-bottom: -2.5em;
+	margin-top: 0.5em;
+    padding-top: 0;
+	padding-bottom: 0.5em;
+    width: 120px;
+}
+
+.profile dl dd {
+    border-bottom: 1px dotted #E3E3E3;
+    margin-bottom: 0.5em;
+    padding: 0.5em 0 0.5em 125px;
+}
+
+.profile h3 {
+	float: left;
+	margin: 30px 0;
+}
+
+/* -------------------------------------------------------- registration & edit & end */
+
+#registrationMain {
+	width: 942px;
+	margin: 0 auto 30px;
+	padding-bottom: 20px;
+	background: url(../../img/largebg_bottom.png) no-repeat bottom;
+}
+
+#registrationMain div.contents {
+	background: url(../../img/largebg.png) repeat-y;
+	padding: 0 5px;
+}
+
+#registrationMain div.contents div.registration {
+	padding: 0 35px 20px;
+}
+
+#registrationMain div.contents div.registration h4 {
+	float: left;
+	padding: 20px 0 30px;
+}
+
+#registrationMain div.contents div.registration div.col-sm-3 {
+	width: 40%;
+}
+
+#registrationMain div.contents div.registration input.btn.btn-success,
+#registrationMain div.contents div.registration input.btn.btn-sm.btn-success {
+	width: 100px;
+	margin-right: 5px;
+}
+
+#registrationMain div.contents div.registration a.btn-sm.btn-danger {
+	margin-right: 5px;
+}
+
+#registrationMain div.contents div.registration a.btn-sm {
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+	margin-right: 5px;
+}
+
+/* -------------------------------------------------------- edit */
+
+#registrationMain div.contents div.registration div.return {
+	background-position: 0 0;
+	width: 130px;
+	height: 30px;
+	display: block;
+	-moz-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+}
+
+#registrationMain div.contents div.registration div.return a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#registrationMain div.contents div.registration div.return a:hover img {
+	position: absolute;
+    top: -30px;
+    left: 0;
+}
+
+#registrationMain div.contents div.registration div.return {
+	float: right;
+}
+
+#registrationMain div.contents div.registration div.bottom {
+	float: none;
+	width:100%;
+}
+
+#registrationMain div.contents div.registration div.bottom a:hover img {
+	position: relative;
+}
+
+#registrationMain div.contents div.registration form.form span.edit {
+	float: left;
+	margin-right: 5px;
+	background-position: 0 0;
+	width: 73px;
+	height: 30px;
+	display: block;
+	-moz-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+}
+
+#registrationMain div.contents div.registration form.form span.edit a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#registrationMain div.contents div.registration form.form span.edit a:hover img {
+	position: absolute;
+    top: -30px;
+}
+
+#registrationMain div.contents div.registration form.form span.delete {
+	float: left;
+	margin-right: 5px;
+	background-position: 0 0;
+	width: 73px;
+	height: 30px;
+	display: block;
+	-moz-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+}
+
+#registrationMain div.contents div.registration form.form span.delete a img {
+	position: absolute;
+	left: -73px;
+}
+
+
+#registrationMain div.contents div.registration form.form span.delete a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+
+#registrationMain div.contents div.registration form.form span.delete a:hover img {
+	position: absolute;
+    top: -30px;
+}
+
+#registrationMain div.contents div.registration form.form span.detail {
+	float: left;	
+	background-position: 0 0;
+	width: 30px;
+	height: 30px;
+	display: block;
+	-moz-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+}
+
+#registrationMain div.contents div.registration form.form span.detail a img {
+	position: absolute;
+	left: -146px;
+}
+
+
+#registrationMain div.contents div.registration form.form span.detail a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#registrationMain div.contents div.registration form.form span.detail a:hover img {
+	position: absolute;
+    top: -30px;
+}
+
+/* -------------------------------------------------------- show login */
+
+div.container.show {
+	background: #ffffff;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	padding: 0;
+	width: 40%;
+	margin-bottom: 30px;
+}
+
+div.container.show h3 {
+	width: 180px;
+	margin: 0 auto;
+	padding: 30px 0 0;
+}
+
+div.container.show p.description {
+	padding: 30px 35px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+div.container.show div.form {
+	padding: 0 35px 20px;
+}
+
+div.container.show div.form h4 {
+	margin-bottom: 10px;
+}
+
+div.container.show div.form p.guide {
+	margin-bottom: 10px;
+}
+
+div.container.show div.form .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* -------------------------------------------------------- show place */
+
+div.container.place {
+	background: #ffffff;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	padding: 0;
+	width: 90%;
+	margin-bottom: 30px;	
+}
+
+div.container.place h3 {
+	padding: 30px 35px 0;
+}
+
+div.container.place h4 {
+	padding: 20px 35px 30px;
+}
+
+div.container.place p.description {
+	padding: 0 35px 15px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+div.container.place div.placeList {
+	padding: 0 35px 20px;
+}
+
+div.container.place div.placeList span.detail {
+	float: left;	
+	background-position: 0 0;
+	width: 30px;
+	height: 30px;
+	display: block;
+	-moz-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+}
+
+div.container.place div.placeList span.detail a img {
+	position: absolute;
+	left: -146px;
+}
+
+
+div.container.place div.placeList span.detail a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+div.container.place div.placeList span.detail a:hover img {
+	position: absolute;
+    top: -30px;
+}
+
+/* -------------------------------------------------------- show subject */
+
+div.container.subject {
+	background: #ffffff;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	padding: 0;
+	width: 90%;
+	margin-bottom: 30px;	
+}
+
+div.container.subject h3 {
+	padding: 30px 35px 0;
+}
+
+div.container.subject h4 {
+	float: left;
+	padding: 20px 35px 30px;
+}
+
+div.container.subject p.description {
+	padding: 0 35px 15px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+div.container.subject div.subjectList {
+	padding: 0 35px 20px;
+}
+
+div.container.subject div.clearfix {
+	padding-right: 35px;
+}
+
+div.container.subject div.return {
+	background-position: 0 0;
+	width: 130px;
+	height: 30px;
+	display: block;
+	-moz-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+}
+
+div.container.subject div.return a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+div.container.subject div.return a:hover img {
+	position: absolute;
+    top: -30px;
+}
+
+div.container.subject div.return {
+	float: right;
+}
+
+div.container.subject span.detail {
+	float: left;	
+	background-position: 0 0;
+	width: 30px;
+	height: 30px;
+	display: block;
+	-moz-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+}
+
+div.container.subject span.detail a img {
+	position: absolute;
+	left: -146px;
+}
+
+
+div.container.subject span.detail a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+div.container.subject span.detail a:hover img {
+	position: absolute;
+    top: -30px;
+}
+
+/* -------------------------------------------------------- show detail */
+
+div.container.detail {
+	background: #ffffff;
+	box-shadow: 0 0 2px 2px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	padding: 0;
+	width: 90%;
+	margin-bottom: 30px;
+}
+
+div.container.detail div.profile h3 {
+	float: left;
+}
+
+div.container.detail div.slideshow {
+	padding: 0 35px 20px;
+}
+
+div.container.detail div.slideshow div.col-sm-10 {
+    width: 100%;
+}
+
+div.container.detail div.return {
+	background-position: 0 0;
+	width: 130px;
+	height: 30px;
+	display: block;
+	margin-top: 30px;
+	-moz-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+}
+
+div.container.detail div.return a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+div.container.detail div.return a:hover img {
+	position: absolute;
+    top: -30px;
+}
+
+div.container.detail div.return {
+	float: right;
+}
+
+div.prize {
+	margin-bottom: 20px;
+}
+
+/* table */
+.sp tbody tr{
+	background-color: #F9F9F9;
+}
+
+.sp tbody tr:hover{
+	background-color: #e9e9e9;
+}
+
+.sp tbody tr td {
+	padding: 0;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.sp tbody tr td a {
+	padding: 8px;
+	display: block;
+	color: #555555;
+	width:100%;
+	height:100%;
+	text-decoration: none;
+	outline: none;
+}
+
+.sp tbody tr td a:focus {
+	outline: none;
+}
+
+.sp tbody tr td a:hover {
+	text-decoration: none;
+}
+
+.sp tbody tr td.middle {
+	text-decoration: none; 
+	vertical-align: middle;
+}
+

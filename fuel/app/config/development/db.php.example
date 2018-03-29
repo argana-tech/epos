@@ -1,0 +1,16 @@
+<?php
+/**
+ * The development database settings. These get merged with the global settings.
+ */
+
+return array(
+	'default' => array(
+		'connection'  => array(
+			'dsn'        => 'mysql:host=localhost;dbname=jsnr43',
+			'username'   => 'jsnr43',
+			'password'   => 'jsnr43rad10',
+			'host'       => 'localhost',
+			'dbname'     => 'jsnr43',
+		),
+	),
+);
