@@ -42,6 +42,8 @@ URL: http://[hostname]/show/
 Visit the [documentation](docs/)
 
 ## Server
+本プログラムは、下記環境のサーバーで動作します。  
+
 OS windows  
 php 5.3.3以上  
 fuelphp 1.8  
